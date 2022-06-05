@@ -1,0 +1,13 @@
+package hotel;
+
+import java.util.List;
+
+public interface DAO {
+
+	int insert(int floor, int room);
+
+	List<HotelVO> select();
+
+	int update(HotelVO hvo);
+
+}
